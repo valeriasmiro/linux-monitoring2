@@ -115,8 +115,8 @@ function main_func() {
                 echo $current_file_name generated file already exists! >> file_gen.log
             fi
         else
-            break
-            echo 'fuck you shit'
+            echo 'Left 1Gb of free memory!'
+            break 2
         fi
         done
     done
